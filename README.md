@@ -4,6 +4,9 @@
 构建后 >> publish HTML reports  
 ## jmeter
 修改 jmeter.properties 文件  
+jmeter.save.saveservice.output_format=xml  
+jmeter.save.saveservice.response_message=true  
+
 
 ## HTML报告支持css
 系统管理 >> 脚本命令行 >> System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")
