@@ -1,4 +1,5 @@
 # jenkins-jmeter-ant
+接口测试 + HTML 报告模版  
 ## jenkins
 构建 >> 执行shell >> ant build.xml  
 构建后 >> publish HTML reports  
