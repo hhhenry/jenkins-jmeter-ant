@@ -2,10 +2,8 @@
 接口测试 + HTML 报告模版  
 
 ## jenkins
-系统配置 >> Enable BUILD_TIMESTAMP
-
-job构建 >> 执行shell >> ant build.xml
-
+系统配置 >> Enable BUILD_TIMESTAMP  
+job构建 >> 执行shell >> ant build.xml  
 job构建后 >> publish HTML reports  >>  index pages >> TestReport${BUILD_TIMESTAMP}.html
 
 ## jmeter
