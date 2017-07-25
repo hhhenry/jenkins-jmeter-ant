@@ -16,7 +16,6 @@ jmeter.save.saveservice.response_message=true
 
 ## HTML报告支持css
 安装插件：Startup Trigger、Groovy  
-配置  
-新建一个job，该job专门用于Jenkins启动时执行的配置命令； 
+新建一个job，该job专门用于Jenkins启动时执行的配置命令  
 在Build Triggers模块下，勾选Build when job nodes start  
 在Build模块下，Add build step->Execute system Groovy script，在Groovy Script中输入配置命令，System.setProperty("hudson.model.DirectoryBrowserSupport.CSP", "")。
