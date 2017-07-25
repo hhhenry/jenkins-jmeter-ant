@@ -1,11 +1,11 @@
 # jenkins-jmeter-ant
 接口测试 + HTML 报告模版  
-## jenkins  
-系统配置 >> Enable BUILD_TIMESTAMP  
-job构建 >> 执行shell >> ant build.xml   
-job构建后 >> publish HTML reports  >>  index pages >> TestReport${BUILD_TIMESTAMP}.html  
+## jenkins
+系统配置 >> Enable BUILD_TIMESTAMP
+job构建 >> 执行shell >> ant build.xml
+job构建后 >> publish HTML reports  >>  index pages >> TestReport${BUILD_TIMESTAMP}.html
 ## jmeter
-修改 jmeter.properties 文件  
+修改 jmeter.properties 文件
 jmeter.save.saveservice.output_format=xml  
 jmeter.save.saveservice.response_message=true  
 添加自己想要显示的数据  
