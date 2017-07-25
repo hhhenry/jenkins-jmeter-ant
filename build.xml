@@ -2,7 +2,7 @@
 
 <project name="ant-jmeter-test" default="all" basedir=".">
     <tstamp>
-        <format property="time" pattern="yyyyMMdd-hhmm" />
+        <format property="time" pattern="yyyyMMdd-HHmm" />
     </tstamp>
     <!-- 需要改成自己本地的 Jmeter 目录-->
     <property name="jmeter.home" value="/Users/henry/jmeter/" />
@@ -24,7 +24,7 @@
         <taskdef name="jmeter" classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask" />
         <jmeter jmeterhome="${jmeter.home}" resultlog="${jmeter.result.jtlName}">
             <!-- 声明要运行的脚本。"*.jmx"指包含此目录下的所有jmeter脚本-->
-            <testplans dir="/Users/haoran.li/jmeter/ant/" includes="mojo2.jmx" />
+            <testplans dir="/Users/henry/jmeter/ant/" includes="test.jmx" />
         </jmeter>
     </target>
 
